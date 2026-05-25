@@ -42,18 +42,18 @@ public class Crop {
     private Integer seedPrice;
 
     @Column(name = "price_base")
-    private Integer buyPriceBase;
+    private Integer sellPriceBase;
 
     @Column(name = "price_bronze")
-    private Integer buyPriceBronze;
+    private Integer sellPriceBronze;
 
     @Column(name = "price_silver")
-    private Integer buyPriceSilver;
+    private Integer sellPriceSilver;
 
     @Column(name = "price_gold")
-    private Integer buyPriceGold;
+    private Integer sellPriceGold;
 
     @Column(name = "price_osmium")
-    private Integer buyPriceOsmium;
+    private Integer sellPriceOsmium;
 
 }
